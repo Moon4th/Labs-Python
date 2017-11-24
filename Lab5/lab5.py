@@ -19,19 +19,6 @@ while choice != 0:
         print("Shutdown...")
         break
 
-    if choice == 4:
-        number = (input("Enter the number:"))
-        number = int(number)
-        while number != 0:
-            if number % 2 == 0:
-                counter += 1
-                number = number // 10
-            else:
-                number = number // 10
-
-        print("Amount of even numbers:", counter)
-        continue
-
     x_min = str(input("Enter minimum value of x:"))
     x_min = float(x_min)
     x_max = str(input("Enter maximum value of x:"))
